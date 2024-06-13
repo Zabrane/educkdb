@@ -58,7 +58,7 @@ CXXFlags =
         {"priv/educkdb_nif.so", NifSources}
     ]},
 
-    {plugins, [pc]},
+    {plugins, [{pc, "~> 1.15"}]},
 
     {provider_hooks,
         [{post,
